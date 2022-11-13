@@ -16,7 +16,7 @@ To load MA-DistilBERT:
 The following contains the links to our pretrained checkpoints: 
 
 | **Model**         |
-| :-------------: |
+| :----------: |
 | [MA-BERT](https://drive.google.com/uc?id=16jlFRkuuVsB39yP62k7bnitRW9z9Mb1_&export=download) | 
 | [MA-BERT (Shared Softmax)](https://drive.google.com/uc?id=1iuONqg13d2Md8mIDwiBaUhycx5cFrRkm&export=download) |
 | [MA-DistilBERT](https://drive.google.com/uc?id=1dvnKAJORjcsH85WPp6g5DyTo_ii1attq&export=download) |
