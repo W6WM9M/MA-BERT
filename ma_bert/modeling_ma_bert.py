@@ -1546,7 +1546,7 @@ class MA_BertForSequenceClassification(MA_BertPreTrainedModel):
         self.num_labels = config.num_labels
         self.config = config
 
-        self.bert = BertModel(config)
+        self.bert = MA_BertModel(config)
         classifier_dropout = (
             config.classifier_dropout if config.classifier_dropout is not None else config.hidden_dropout_prob
         )
