@@ -1,6 +1,6 @@
 # MA-BERT
 
-This Github respository contains the pre-trained models of MA-BERT models mentioned in [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, the three pretrained checkpoints are released under the [Pretrained Checkpoint](#-test) section:
+This Github respository contains the pre-trained models of MA-BERT models mentioned in [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, the three pretrained checkpoints are released under the [Pretrained Checkpoint](#pretrained-checkpoints) section:
 1. MA-BERT
 2. MA-BERT (Shared Softmax)
 3. MA-DistilBERT
@@ -25,7 +25,7 @@ To load MA-DistilBERT:
 2. Move the folder to the DistilBERT folder in the transformers library: `transformers/models/distilbert`
 3. Execute the code in the `loading_example.ipynb`
 
-## [Pretrained Checkpoints - test]
+## Pretrained Checkpoints
 The following contains the links to our pretrained checkpoints: 
 
 | **Model**         |
