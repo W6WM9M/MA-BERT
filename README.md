@@ -1,6 +1,6 @@
 # MA-BERT
 
-This Github respository contains the pre-trained models of MA-BERT models mentioned in [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, three pretrained checkpoints are released under the [Pretrained Checkpoint](#pretrained-checkpoints) section:
+This Github respository contains the pre-trained models of MA-BERT models mentioned in the paper [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, three pretrained checkpoints are released under the [Pretrained Checkpoint](#pretrained-checkpoints) section:
 1. MA-BERT
 2. MA-BERT (Shared Softmax)
 3. MA-DistilBERT
