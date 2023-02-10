@@ -24,12 +24,11 @@ The following contains the links to our pretrained checkpoints:
 ## Citations
 ```
 @inproceedings{
-anonymous2023mabert,
+ming2023mabert,
 title={{MA}-{BERT}: Towards Matrix Arithmetic-only {BERT} Inference by Eliminating Complex Non-linear Functions},
-author={Anonymous},
-booktitle={Submitted to The Eleventh International Conference on Learning Representations },
+author={Neo Wei Ming and Zhehui Wang and Cheng Liu and Rick Siow Mong Goh and Tao Luo},
+booktitle={International Conference on Learning Representations},
 year={2023},
-url={https://openreview.net/forum?id=HtAfbHa7LAL},
-note={under review}
+url={https://openreview.net/forum?id=HtAfbHa7LAL}
 }
 ```
