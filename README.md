@@ -1,5 +1,18 @@
 # MA-BERT
 
+This Github respository contains the pre-trained models of MA-BERT models mentioned in [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, the three pretrained checkpoints are released:
+1. MA-BERT
+2. MA-BERT (Shared Softmax)
+3. MA-DistilBERT
+
+In MA-BERT, we proposed four correlated techniques that include:
+1. Approximating softmax with a two-layer neural network
+2. Replacing GELU with ReLU
+3. Fusing normalization layers with adjacent linear layers
+4. Leveraging knowledge transfer from baseline models 
+
+Through these techniques, we were able to eliminate the major non-linear functions in BERT and obtain MA-BERT with only matrix arithmetic and trivial ReLU operations.  Our experimental results show that MA-BERT achieves a more efficient inference with comparable accuracy on many downstream tasks compared to the baseline BERT models.
+
 ## Instructions
 
 To load MA-BERT and MA-BERT (Shared Softmax):
