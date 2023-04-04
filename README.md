@@ -16,7 +16,7 @@
 </ol>
 <p align="justify">Through these techniques, we were able to eliminate the major non-linear functions in BERT and obtain MA-BERT with only matrix arithmetic and trivial ReLU operations.  Our experimental results show that MA-BERT achieves a more efficient inference with comparable accuracy on many downstream tasks compared to the baseline BERT models.</p>
 
-## Instructions
+## Loading Instructions
 
 To load MA-BERT and MA-BERT (Shared Softmax):
 1. Download the `ma-bert` folder and its pretrained checkpoint
