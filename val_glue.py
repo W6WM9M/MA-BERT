@@ -13,11 +13,6 @@ from transformers.models.bert.modeling_bert import BertForSequenceClassification
 # from transformers.models.distilbert.ma_distilbert.configuration_ma_distilbert import MA_DistilBertConfig
 # from transformers.models.distilbert.modeling_distilbert import DistilBertForSequenceClassification
 
-# DistilRoBERTa
-# from transformers.models.roberta.ma_roberta.modeling_ma_roberta import MA_RobertaForSequenceClassification
-# from transformers.models.roberta.ma_roberta.configuration_ma_roberta import MA_RobertaConfig
-# from transformers.models.roberta.modeling_roberta import RobertaForSequenceClassification
-
 from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer
 from datasets import load_dataset, load_metric #Need to install using pip install datasets 
