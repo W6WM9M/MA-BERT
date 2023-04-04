@@ -40,42 +40,36 @@ The following contains the links to our pretrained checkpoints:
 ## Evaluation on GLUE and IMDb
 The GLUE benchmark and the IMDb sentiment classification task were used to evaluate MA-BERT.
 <dl>
-  <dt>val_glue.py</dt>
+  <dt><a href="https://github.com/W6WM9M/MA-BERT/blob/main/val_glue.py">val_glue.py</a></dt>
   <dd>Example python script for finetuning MA-BERT on GLUE tasks</dd>
-  <dt>val_imdb.py</dt>
+  <dt><a href="https://github.com/W6WM9M/MA-BERT/blob/main/val_imdb.py">val_imdb.py</a></dt>
   <dd>Example python script for finetuning MA-BERT on the IMDb sentiment classification task</dd>
 </dl>
 
-The following are the command line arguments required:</br>
-<dl>
-  <dt>student_ckpt_file</dt>
-  <dd>Path to the pretrained checkpoint file of MA-BERT or MA-DistilBERT </dd>
+The following are the required command line arguments:
+<ull>
+  <li><b>student_ckpt_file</b>: Path to the pretrained checkpoint file of MA-BERT or MA-DistilBERT</li>
   
-  <dt>teacher_ckpt_file</dt>
-  <dd>Path to the finetuned checkpoint file of BERT or DistilBERT</dd>
+  <li><b>teacher_ckpt_file</b>: Path to the finetuned checkpoint file of BERT or DistilBERT</li>
   
-  <dt>save_dir</dt>
-  <dd>Save directory path</dd>
+  <li><b>save_dir</b>: Save directory path</li>
   
-  <dt>file_name</dt>
-  <dd>Folder name to be saved as</dd>
+  <li><b>file_name</b>: Folder name to be saved as</li>
   
-  <dt>model</dt>
-  <dd>"bert-base-uncased" or "distilbert-base-uncased"</dd>
+  <li><b>model</b>: "bert-base-uncased" or "distilbert-base-uncased"</li>
   
-  <dt>epoch</dt>
-  <dd>Number of epochs for finetuning, 10 (CoLA, MRPC, STSB, RTE) or 5 (otherwise)</dd>
+  <li><b>epoch</b>: Number of epochs for finetuning, 10 (CoLA, MRPC, STSB, RTE) or 5 (otherwise)</li>
   
-  <dt>learning_rate</dt>
-  <dd>Learning rate for finetuning (default: $2e-5$)</dd>
+  <li><b>learning_rate</b>: Learning rate for finetuning (default: 2e-5)</li>
   
-  <dt>batch_size</dt>
-  <dd>Batch size for finetuning, 16 (CoLA, MRPC, STSB, RTE) or 32 (otherwise)</dd>
+  <li><b>batch_size</b>: Batch size for finetuning, 16 (CoLA, MRPC, STSB, RTE) or 32 (otherwise)</li>
   
-  <dt>KD_alpha</dt>
-  <dd>Alpha term used in the knowledge transfer (default: 0.9)</dd>
+  <li><b>KD_alpha</b>: Alpha term used in the knowledge transfer (default: 0.9)</li>
+
   
-</dl>
+</ul>
+
+
 
 ## Citations  
 ```
