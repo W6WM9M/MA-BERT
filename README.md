@@ -1,17 +1,20 @@
 # MA-BERT
 
-This Github respository contains the pre-trained models of MA-BERT models mentioned in the paper [MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions](https://openreview.net/forum?id=HtAfbHa7LAL). In particular, three pretrained checkpoints are released under the [Pretrained Checkpoint](#pretrained-checkpoints) section:
-1. MA-BERT
-2. MA-BERT (Shared Softmax)
-3. MA-DistilBERT
+<p align="justify">This Github respository contains the pre-trained models of MA-BERT models mentioned in the paper <a href="https://openreview.net/forum?id=HtAfbHa7LAL">MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-linear Functions</a>. In particular, three pretrained checkpoints are released under the <a href="#pretrained-checkpoints">Pretrained Checkpoint</a> section: </p>
+<ol>
+<li>MA-BERT</li>
+<li>MA-BERT (Shared Softmax)</li>
+<li>MA-DistilBERT</li>
+</ol>
+<p align="justify">In MA-BERT, we proposed four correlated techniques that include:</p>
 
-In MA-BERT, we proposed four correlated techniques that include:
-1. Approximating softmax with a two-layer neural network
-2. Replacing GELU with ReLU
-3. Fusing normalization layers with adjacent linear layers
-4. Leveraging knowledge transfer from baseline models 
-
-Through these techniques, we were able to eliminate the major non-linear functions in BERT and obtain MA-BERT with only matrix arithmetic and trivial ReLU operations.  Our experimental results show that MA-BERT achieves a more efficient inference with comparable accuracy on many downstream tasks compared to the baseline BERT models.
+<ol>
+<li>Approximating softmax with a two-layer neural network</li>
+<li>Replacing GELU with ReLU</li>
+<li>Fusing normalization layers with adjacent linear layers</li>
+<li>Leveraging knowledge transfer from baseline models </li>
+</ol>
+<p align="justify">Through these techniques, we were able to eliminate the major non-linear functions in BERT and obtain MA-BERT with only matrix arithmetic and trivial ReLU operations.  Our experimental results show that MA-BERT achieves a more efficient inference with comparable accuracy on many downstream tasks compared to the baseline BERT models.</p>
 
 ## Instructions
 
@@ -33,6 +36,7 @@ The following contains the links to our pretrained checkpoints:
 | [MA-BERT](https://drive.google.com/uc?id=16jlFRkuuVsB39yP62k7bnitRW9z9Mb1_&export=download) | 
 | [MA-BERT (Shared Softmax)](https://drive.google.com/uc?id=1iuONqg13d2Md8mIDwiBaUhycx5cFrRkm&export=download) |
 | [MA-DistilBERT](https://drive.google.com/uc?id=1dvnKAJORjcsH85WPp6g5DyTo_ii1attq&export=download) |
+
 
 ## Citations
 ```
