@@ -37,8 +37,47 @@ The following contains the links to our pretrained checkpoints:
 | [MA-BERT (Shared Softmax)](https://drive.google.com/uc?id=1iuONqg13d2Md8mIDwiBaUhycx5cFrRkm&export=download) |
 | [MA-DistilBERT](https://drive.google.com/uc?id=1dvnKAJORjcsH85WPp6g5DyTo_ii1attq&export=download) |
 
+## Evaluation on GLUE and IMDb
+The GLUE benchmark and the IMDb sentiment classification task were used to evaluate MA-BERT.
+<dl>
+  <dt>val_glue.py</dt>
+  <dd>Example python script for finetuning MA-BERT on GLUE tasks</dd>
+  <dt>val_imdb.py</dt>
+  <dd>Example python script for finetuning MA-BERT on the IMDb sentiment classification task</dd>
+</dl>
 
-## Citations
+The following are the command line arguments required:</br>
+<dl>
+  <dt>student_ckpt_file</dt>
+  <dd>Path to the pretrained checkpoint file of MA-BERT or MA-DistilBERT </dd>
+  
+  <dt>teacher_ckpt_file</dt>
+  <dd>Path to the finetuned checkpoint file of BERT or DistilBERT</dd>
+  
+  <dt>save_dir</dt>
+  <dd>Save directory path</dd>
+  
+  <dt>file_name</dt>
+  <dd>Folder name to be saved as</dd>
+  
+  <dt>model</dt>
+  <dd>"bert-base-uncased" or "distilbert-base-uncased"</dd>
+  
+  <dt>epoch</dt>
+  <dd>Number of epochs for finetuning, 10 (CoLA, MRPC, STSB, RTE) or 5 (otherwise)</dd>
+  
+  <dt>learning_rate</dt>
+  <dd>Learning rate for finetuning (default: $2e-5$)</dd>
+  
+  <dt>batch_size</dt>
+  <dd>Batch size for finetuning, 16 (CoLA, MRPC, STSB, RTE) or 32 (otherwise)</dd>
+  
+  <dt>KD_alpha</dt>
+  <dd>Alpha term used in the knowledge transfer (default: 0.9)</dd>
+  
+</dl>
+
+## Citations  
 ```
 @inproceedings{
 ming2023mabert,
