@@ -38,7 +38,7 @@ The following contains the links to our pretrained checkpoints:
 | [MA-DistilBERT](https://drive.google.com/uc?id=1dvnKAJORjcsH85WPp6g5DyTo_ii1attq&export=download) |
 
 ## Evaluation on GLUE and IMDb
-The GLUE benchmark and the IMDb sentiment classification task were used to evaluate MA-BERT.
+The [GLUE benchmark](https://openreview.net/pdf?id=rJ4km2R5t7) and the [IMDb sentiment classification task](https://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf) were used to evaluate MA-BERT.
 <dl>
   <dt><a href="https://github.com/W6WM9M/MA-BERT/blob/main/val_glue.py">val_glue.py</a></dt>
   <dd>Example python script for finetuning MA-BERT on GLUE tasks</dd>
