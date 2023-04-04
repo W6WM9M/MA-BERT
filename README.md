@@ -58,17 +58,14 @@ The following are the required command line arguments:
   
   <li><b>model</b>: "bert-base-uncased" or "distilbert-base-uncased"</li>
   
-  <li><b>epoch</b>: Number of epochs for finetuning, 10 (CoLA, MRPC, STSB, RTE) or 5 (otherwise)</li>
+  <li><b>epoch</b>: Number of epochs for finetuning, 10 (CoLA, MRPC, STS-B, RTE) or 5 (otherwise)</li>
   
-  <li><b>learning_rate</b>: Learning rate for finetuning (default: 2e-5)</li>
+  <li><b>learning_rate</b>: Learning rate for finetuning, default: 2e-5</li>
   
-  <li><b>batch_size</b>: Batch size for finetuning, 16 (CoLA, MRPC, STSB, RTE) or 32 (otherwise)</li>
+  <li><b>batch_size</b>: Batch size for finetuning, 16 (CoLA, MRPC, STS-B, RTE) or 32 (otherwise)</li>
   
-  <li><b>KD_alpha</b>: Alpha term used in the knowledge transfer (default: 0.9)</li>
-
-  
+  <li><b>KD_alpha</b>: Alpha term used in the knowledge transfer, default: 0.9</li>
 </ul>
-
 
 
 ## Citations  
